@@ -25,7 +25,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin: [
-      "https://aqua-fe.vercel.app",
+      "https://che-vku-fe.vercel.app",
       "https://aqua-admin-ochre.vercel.app",
     ],
     credentials: true,
